@@ -19,7 +19,7 @@ const Hero = () => {
                 Multi-Disciplinary Professional
               </p>
               <h1 className="text-4xl md:text-6xl font-bold text-foreground leading-tight">
-                Hi, I'm{" "}
+                {" "}
                 <span className="bg-gradient-hero bg-clip-text text-transparent">
                   Dr Nay Win Aung
                 </span>
