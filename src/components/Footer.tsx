@@ -59,7 +59,7 @@ const Footer = () => {
           <div className="md:col-span-2 space-y-4">
             <div className="flex items-center gap-2">
               <Building2 className="h-6 w-6 text-primary" />
-              <h3 className="text-xl font-bold text-primary">[Your Name]</h3>
+              <h3 className="text-xl font-bold text-primary">Dr Nay Win Aung</h3>
             </div>
             <p className="text-muted-foreground leading-relaxed max-w-md">
               Multi-disciplinary professional specializing in data analysis, research consulting, 
@@ -123,7 +123,7 @@ const Footer = () => {
         {/* Bottom Section */}
         <div className="flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-sm text-muted-foreground">
-            © {currentYear} [Your Name]. All rights reserved.
+            © {currentYear} Dr Nay Win Aung. All rights reserved.
           </p>
           
           <div className="flex items-center gap-4">

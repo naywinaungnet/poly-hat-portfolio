@@ -21,7 +21,7 @@ const Hero = () => {
               <h1 className="text-4xl md:text-6xl font-bold text-foreground leading-tight">
                 Hi, I'm{" "}
                 <span className="bg-gradient-hero bg-clip-text text-transparent">
-                  [Your Name]
+                  Dr Nay Win Aung
                 </span>
               </h1>
               <p className="text-xl md:text-2xl text-muted-foreground leading-relaxed">
