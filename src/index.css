@@ -7,18 +7,34 @@ All colors MUST be HSL.
 */
 
 @layer base {
-  :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+:root {
+    /* Professional Portfolio Color System */
+    --background: 0 0% 99%;
+    --foreground: 222 15% 25%;
 
     --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card-foreground: 222 15% 25%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover-foreground: 222 15% 25%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    --primary: 220 91% 25%;
+    --primary-foreground: 0 0% 98%;
+    --primary-glow: 220 91% 35%;
+
+    /* Professional gradients */
+    --gradient-hero: linear-gradient(135deg, hsl(220 91% 25%), hsl(220 91% 35%));
+    --gradient-card: linear-gradient(145deg, hsl(0 0% 100%), hsl(220 20% 98%));
+    --gradient-section: linear-gradient(180deg, hsl(220 40% 98%), hsl(0 0% 99%));
+
+    /* Professional shadows */
+    --shadow-elegant: 0 10px 40px -15px hsl(220 91% 25% / 0.15);
+    --shadow-card: 0 4px 20px -4px hsl(220 20% 70% / 0.15);
+    --shadow-glow: 0 0 50px hsl(220 91% 35% / 0.2);
+
+    /* Animations */
+    --transition-smooth: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-bounce: all 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 
     --secondary: 210 40% 96.1%;
     --secondary-foreground: 222.2 47.4% 11.2%;
